@@ -19,8 +19,27 @@
 		095D07542446E92400291818 /* demo07.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095D07532446E92400291818 /* demo07.swift */; };
 		095D075624470FC800291818 /* demo21.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095D075524470FC800291818 /* demo21.swift */; };
 		095D075824471B7C00291818 /* demo22.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095D075724471B7C00291818 /* demo22.swift */; };
+		09AF3034244853E100CF3654 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AF3033244853E100CF3654 /* Operators.swift */; };
+		09AF3036244857F000CF3654 /* demo30.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AF3035244857F000CF3654 /* demo30.swift */; };
+		09AF3038244860C300CF3654 /* demo31.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AF3037244860C300CF3654 /* demo31.swift */; };
+		09E6D149244A98F00053C20A /* demo42.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E6D148244A98F00053C20A /* demo42.swift */; };
+		09E6D14B244AA5240053C20A /* demo43.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E6D14A244AA5240053C20A /* demo43.swift */; };
+		09E81C9624484CD000DD64A8 /* demo27.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E81C9524484CD000DD64A8 /* demo27.swift */; };
 		91E892D0135E03000C46F593 /* Pods_LearnSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323906335DD024A5AE71F4E5 /* Pods_LearnSwift.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		09AF304D24498D6E00CF3654 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		095D07292445BDE400291818 /* LearnSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,6 +56,13 @@
 		095D07532446E92400291818 /* demo07.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo07.swift; sourceTree = "<group>"; };
 		095D075524470FC800291818 /* demo21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo21.swift; sourceTree = "<group>"; };
 		095D075724471B7C00291818 /* demo22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo22.swift; sourceTree = "<group>"; };
+		09AF3033244853E100CF3654 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		09AF3035244857F000CF3654 /* demo30.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo30.swift; sourceTree = "<group>"; };
+		09AF3037244860C300CF3654 /* demo31.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo31.swift; sourceTree = "<group>"; };
+		09AF303E24498D6D00CF3654 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		09E6D148244A98F00053C20A /* demo42.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo42.swift; sourceTree = "<group>"; };
+		09E6D14A244AA5240053C20A /* demo43.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo43.swift; sourceTree = "<group>"; };
+		09E81C9524484CD000DD64A8 /* demo27.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo27.swift; sourceTree = "<group>"; };
 		323906335DD024A5AE71F4E5 /* Pods_LearnSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		384E2F0CA798DD2F6647CEB4 /* Pods-LearnSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnSwift.release.xcconfig"; path = "Target Support Files/Pods-LearnSwift/Pods-LearnSwift.release.xcconfig"; sourceTree = "<group>"; };
 		7BFD81C7EFFDFAAD88ECC92E /* Pods-LearnSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnSwift.debug.xcconfig"; path = "Target Support Files/Pods-LearnSwift/Pods-LearnSwift.debug.xcconfig"; sourceTree = "<group>"; };
@@ -78,6 +104,7 @@
 				095D074A2446AA1500291818 /* rxswift_demo */,
 				095D072C2445BDE400291818 /* AppDelegate.swift */,
 				095D07302445BDE400291818 /* ViewController.swift */,
+				09AF3033244853E100CF3654 /* Operators.swift */,
 				095D07322445BDE400291818 /* Main.storyboard */,
 				095D07352445BDE600291818 /* Assets.xcassets */,
 				095D07372445BDE600291818 /* LaunchScreen.storyboard */,
@@ -96,6 +123,11 @@
 				095D07532446E92400291818 /* demo07.swift */,
 				095D075524470FC800291818 /* demo21.swift */,
 				095D075724471B7C00291818 /* demo22.swift */,
+				09E81C9524484CD000DD64A8 /* demo27.swift */,
+				09AF3035244857F000CF3654 /* demo30.swift */,
+				09AF3037244860C300CF3654 /* demo31.swift */,
+				09E6D148244A98F00053C20A /* demo42.swift */,
+				09E6D14A244AA5240053C20A /* demo43.swift */,
 			);
 			path = rxswift_demo;
 			sourceTree = "<group>";
@@ -104,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				323906335DD024A5AE71F4E5 /* Pods_LearnSwift.framework */,
+				09AF303E24498D6D00CF3654 /* NotificationCenter.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -128,7 +161,8 @@
 				095D07252445BDE400291818 /* Sources */,
 				095D07262445BDE400291818 /* Frameworks */,
 				095D07272445BDE400291818 /* Resources */,
-				14B959E665ED98E99023340E /* [CP] Embed Pods Frameworks */,
+				09AF304D24498D6E00CF3654 /* Embed App Extensions */,
+				B92438467501F3D3CF593EB2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -208,7 +242,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		14B959E665ED98E99023340E /* [CP] Embed Pods Frameworks */ = {
+		B92438467501F3D3CF593EB2 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -233,14 +267,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				095D075824471B7C00291818 /* demo22.swift in Sources */,
+				09AF3038244860C300CF3654 /* demo31.swift in Sources */,
+				09E6D14B244AA5240053C20A /* demo43.swift in Sources */,
 				095D07522446E41500291818 /* demo06.swift in Sources */,
 				095D07542446E92400291818 /* demo07.swift in Sources */,
+				09E6D149244A98F00053C20A /* demo42.swift in Sources */,
+				09E81C9624484CD000DD64A8 /* demo27.swift in Sources */,
 				095D07312445BDE400291818 /* ViewController.swift in Sources */,
 				095D074C2446AA3C00291818 /* demo03.swift in Sources */,
+				09AF3034244853E100CF3654 /* Operators.swift in Sources */,
 				095D07502446B44D00291818 /* demo05.swift in Sources */,
 				095D074E2446B04400291818 /* demo04.swift in Sources */,
 				095D072D2445BDE400291818 /* AppDelegate.swift in Sources */,
 				095D075624470FC800291818 /* demo21.swift in Sources */,
+				09AF3036244857F000CF3654 /* demo30.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,17 +424,19 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7BFD81C7EFFDFAAD88ECC92E /* Pods-LearnSwift.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JC88YP7GKU;
+				DEVELOPMENT_TEAM = FUS4AN23VD;
 				INFOPLIST_FILE = LearnSwift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.livi.LearnSwift;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LearnSwift;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -404,17 +446,19 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 384E2F0CA798DD2F6647CEB4 /* Pods-LearnSwift.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JC88YP7GKU;
+				DEVELOPMENT_TEAM = FUS4AN23VD;
 				INFOPLIST_FILE = LearnSwift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.livi.LearnSwift;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LearnSwift;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
